@@ -1,0 +1,402 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*-----------Modelo fuera del mediaquerys------------*/
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    padding:30px;
+    
+    background-repeat: no-repeat;
+}
+
+
+.card_component{ 
+display: flex;
+flex-direction: row;
+padding: 30px;
+
+color: white;
+}
+
+.title_component{
+
+margin-top: 50px;
+margin-left: 30px;
+text-align: left;
+
+}
+
+.title_component h1{
+
+
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+width: 60%;
+}
+
+.title_component p{
+
+margin-top: 25px;
+margin-left: 0px;
+width: 95%;
+text-align: left;
+font-family: 'poppins', sans-serif;
+font-size: 18px;
+font-weight: 900;
+
+
+}
+
+.ContenedorBoton{
+
+margin-top: 15px;
+padding: 0px;
+    
+color: hsl(257, 40%, 49%);
+
+}
+
+button {
+
+height: 50px;
+width: 35%;
+font-family: 'poppins', sans-serif;
+font-size: 14px;
+font-weight: 900;
+border:none;
+
+border-radius: 3em;
+color: hsl(257, 40%, 49%)
+
+}
+
+.ContenedorBoton :hover {
+
+background-color: hsl(300, 69%, 71%);
+color: white;
+}
+
+/* footer {
+margin: 0px;
+padding:0px;
+
+display: flex;
+justify-content: flex-end;
+}*/
+
+
+.icon{
+
+float: right;
+height: 32px;
+width: 32px;
+border: 1px solid #fff;
+border-radius: 50%;
+color: #fff;
+background-color: transparent;
+margin-top: 50px;
+margin-left: 11px;
+padding: 4px;
+}
+
+.icon:hover{
+background-color: hsl(300, 69%, 71%);
+color: white;
+}
+        
+
+/*----------- FIN modelo fuera del mediaquerys------------*/
+
+
+
+/*-----------modelo para width 1440px------------*/
+@media only screen and (max-width: 1440px) {
+    
+            body {
+                    background-color: hsl(257, 40%, 49%);
+                    background-image: url(../images/bg-mobile.svg);
+                    padding:30px;
+                    
+                    background-repeat: no-repeat;
+                }
+                
+            
+
+            .card_component{ 
+                display: flex;
+                flex-direction: row;
+                padding: 30px;
+
+                color: white;
+            }
+
+            .title_component{
+
+                margin-top: 50px;
+                margin-left: 30px;
+                text-align: left;
+
+            }
+            
+            .title_component h1{
+
+                
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+                width: 60%;
+            }
+
+            .title_component p{
+                
+                margin-top: 25px;
+                margin-left: 0px;
+                width: 95%;
+                text-align: left;
+                font-family: 'poppins', sans-serif;
+                font-size: 18px;
+                font-weight: 900;
+                
+                
+            }
+            
+            .ContenedorBoton{
+                
+                margin-top: 15px;
+                padding: 0px;
+                    
+                color: hsl(257, 40%, 49%);
+               
+            }
+
+            button {
+
+                height: 50px;
+                width: 35%;
+                font-family: 'poppins', sans-serif;
+                font-size: 14px;
+                font-weight: 900;
+                border:none;
+
+                border-radius: 3em;
+                color: hsl(257, 40%, 49%)
+            
+            }
+            
+            .ContenedorBoton :hover {
+
+                background-color: hsl(300, 69%, 71%);
+                color: white;
+            }
+            
+           /* footer {
+                margin: 0px;
+                padding:0px;
+                
+                display: flex;
+                justify-content: flex-end;
+            }*/
+
+         
+            .icon{
+                
+                float: right;
+                height: 32px;
+                width: 32px;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                color: #fff;
+                background-color: transparent;
+                margin-top: 50px;
+                margin-left: 11px;
+                padding: 4px;
+            }
+
+            .icon:hover{
+                background-color: hsl(300, 69%, 71%);
+                color: white;
+            }
+                        
+          
+
+        
+            
+           
+}
+
+
+/*----------- FIN modelo para width 1440px------------*/
+
+
+
+/*-----------Modelo para FIRST MOBILE------------*/
+@media only screen and (max-width:375px) {
+
+        
+    body {
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+
+        margin: 0px;
+        padding:0px;
+
+    }
+
+    .img1{
+        
+        margin: 10px;
+        width:50%;
+        max-width:600px;
+
+    }
+    
+    .card_component{
+        margin:0px;
+        padding: 20px;
+        width: 100%;
+       
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .img_component{
+        
+        height: 250px;
+        width: 300px;
+        
+        
+    }
+    
+    .title_component{
+
+        margin: 30px;
+        padding: 0px;
+        width: 100%;
+
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .title_component h1 {
+
+        margin-top: 20px;
+        width: 100%;
+
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+
+        text-align: center;
+        
+        
+
+    }
+
+    .title_component p {
+        
+        
+        margin: 20px;
+        padding: 0px;
+        width: 94%;
+        font-family: 'poppins', sans-serif;
+        text-align: center;
+        font-size: 15px;
+
+    
+
+    }
+    
+ 
+    .ContenedorBoton{
+                
+        margin-top: 15px;
+        padding: 0px;
+        width: 100%;
+            
+        color: hsl(257, 40%, 49%);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+
+    button {
+
+        height: 50px;
+        width: 35%;
+
+        font-family: 'poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+
+        border:none;
+        border-radius: 3em;
+
+        color: hsl(257, 40%, 49%)
+    
+    }
+    
+    .ContenedorBoton :hover {
+
+        background-color: hsl(300, 69%, 71%);
+        color: white;
+    }
+        
+    footer{
+
+
+        margin: 0px;
+        padding: 0px;
+    
+    
+    }
+    .iconos_media{
+
+
+        margin-bottom: 20px;
+
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .icon{
+                
+        height: 32px;
+        width: 32px;
+
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        background-color: transparent;
+
+        margin-top: 30px;
+        margin-left: 11px;
+        padding: 4px;
+
+    }
+
+    .icon:hover{
+        background-color: hsl(300, 69%, 71%);
+        color: white;
+    }
+/*-----------FIN Modelo para FIRST MOBILE------------*/
+    
+    
+}
+
